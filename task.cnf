@@ -75,8 +75,8 @@ slow_query_log = 1
 # slow_query_log_file	= /data/mysql-slow.log this path is uncommon
 slow_query_log_file	= /var/log/mysql/mysql-slow.log
 
-# long_query_time = 0 too wide expression
-long_query_time = 2
+long_query_time = 0
+# long_query_time = 2
 
 
 # log-queries-not-using-indexes
