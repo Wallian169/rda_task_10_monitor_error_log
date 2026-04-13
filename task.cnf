@@ -49,8 +49,8 @@ mysqlx-bind-address	= 127.0.0.1
 # the first time they are touched
 myisam-recover-options  = BACKUP
 
-# max_connections      = 5 is not enough
-max_connections        = 151
+max_connections      = 5
+# max_connections        = 151
 
 # table_open_cache       = 4000
 
